@@ -23,11 +23,14 @@ it is classified to :
 | Gyroscope | 3-DOF (roll, pitch, yaw rate) | Angular velocity |
 | Magnetometer | 3-DOF (x, y, z) | Earth's magnetic field |
 
-The magnetometer acts like a digital compass — it measures Earth's magnetic field to provide an **absolute heading reference**. This corrects the gyroscope's heading drift by always knowing which direction is magnetic North.
+The magnetometer acts like a digital compass — it measures Earth's magnetic field to provide an **absolute heading reference**. 
+
+This corrects the gyroscope's heading drift by always knowing which direction is magnetic North.
+
  
 **Common 9-DOF chips:** BNO055(our module), MPU-9250, ICM-42688-P, LSM9DS1
 
-![](<![Uploading image.png…]()>)
+![](<https://www.amazon.in/Adafruit-Absolute-Orientation-Fusion-Breakout/dp/B017PEIGIG>)
 
 -------------------------------------------------------
 
@@ -37,27 +40,38 @@ make a ws and inside the src :
 
 ``git clone https://github.com/flynneva/bno055``
 
+
 **For Runinng the IMU bno005 on the laptop**
+
 
 ``ros2 launch bno055 bno055.launch.py ``
 
+
 then **run a static transform**
+
 
 ``ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_link bno055``
 
+
 then to simulate in rviz install **imu plugin**,
+
 
 ``sudo apt install ros-jazzy-rviz-imu-plugin``
 
 why ?
 
+
 because rviz want to know where the imu with rescprect to the world 
+
 
 the previous command means that :
 
+
 “The IMU is mounted on the robot at the center, no offset”
 
+
 base_link ------> bno005
+
 
 where did i get the fixed frame ?
 
