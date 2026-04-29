@@ -1,5 +1,3 @@
-<img width="256" height="197" alt="image" src="https://github.com/user-attachments/assets/5deaaa9d-962c-4192-927b-239d0405c9bf" /># IMU_Guide_MindCloud
-
 ## First what is imu ?
 ----------------------------------------------------------------------
 
@@ -29,7 +27,7 @@ The magnetometer acts like a digital compass — it measures Earth's magnetic fi
  
 **Common 9-DOF chips:** BNO055(our module), MPU-9250, ICM-42688-P, LSM9DS1
 
-![](<Uploading image.png>)
+![](<![Uploading image.png…]()>)
 
 -------------------------------------------------------
 
