@@ -1,7 +1,39 @@
-# IMU_Guide_MindCloud
-repo for imu 
+<img width="256" height="197" alt="image" src="https://github.com/user-attachments/assets/5deaaa9d-962c-4192-927b-239d0405c9bf" /># IMU_Guide_MindCloud
 
-to install 
+## First what is imu ?
+----------------------------------------------------------------------
+
+**imu** An IMU (Inertial Measurement Unit) is an electronic device that measures and reports a body's specific force, angular rate, and sometimes the orientation of the body using a combination of accelerometers, gyroscopes, and sometimes magnetometers.
+
+In robotics, mobile phones, drones, and autonomous vehicles, the IMU is one of the most fundamental sensors — it is the device that tells the system "how am I moving right now?" without needing any external reference like GPS or a camera.
+
+it is classified to :
+
+1- 6-DOF means it contains 3-DOF Accelerometer, 3-DOF Gyroscope 
+
+| Sensor | DOF | Measures |
+|---|---|---|
+| Accelerometer | 3-DOF (x, y, z) | Linear force / acceleration |
+| Gyroscope | 3-DOF (roll, pitch, yaw rate) | Angular velocity |
+
+
+2- 9-DOF means it contains 3-DOF Accelerometer,3-DOF Gyroscope ,3-DOF Magnetometer
+
+| Sensor | DOF | Measures |
+|---|---|---|
+| Accelerometer | 3-DOF (x, y, z) | Linear force / acceleration |
+| Gyroscope | 3-DOF (roll, pitch, yaw rate) | Angular velocity |
+| Magnetometer | 3-DOF (x, y, z) | Earth's magnetic field |
+
+The magnetometer acts like a digital compass — it measures Earth's magnetic field to provide an **absolute heading reference**. This corrects the gyroscope's heading drift by always knowing which direction is magnetic North.
+ 
+**Common 9-DOF chips:** BNO055(our module), MPU-9250, ICM-42688-P, LSM9DS1
+
+![](<Uploading image.png>)
+
+-------------------------------------------------------
+
+**to install :**
 
 make a ws and inside the src :
 
