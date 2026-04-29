@@ -1,11 +1,11 @@
-## First what is imu ?
-----------------------------------------------------------------------
+# First what is imu ?
+
 
 **imu** An IMU (Inertial Measurement Unit) is an electronic device that measures and reports a body's specific force, angular rate, and sometimes the orientation of the body using a combination of accelerometers, gyroscopes, and sometimes magnetometers.
 
 In robotics, mobile phones, drones, and autonomous vehicles, the IMU is one of the most fundamental sensors — it is the device that tells the system "how am I moving right now?" without needing any external reference like GPS or a camera.
 
-it is classified to :
+### it is classified to :
 
 1- 6-DOF means it contains 3-DOF Accelerometer, 3-DOF Gyroscope 
 
@@ -30,7 +30,7 @@ This corrects the gyroscope's heading drift by always knowing which direction is
  
 **Common 9-DOF chips:** BNO055(our module), MPU-9250, ICM-42688-P, LSM9DS1
 
-![](<https://www.amazon.in/Adafruit-Absolute-Orientation-Fusion-Breakout/dp/B017PEIGIG>)
+![](<![Uploading image.png…]()>)
 
 -------------------------------------------------------
 
