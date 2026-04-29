@@ -1,6 +1,12 @@
 # IMU_Guide_MindCloud
 repo for imu 
 
+to install 
+
+make a ws and inside the src :
+
+``git clone https://github.com/flynneva/bno055``
+
 **For Runinng the IMU bno005 on the laptop**
 
 ``ros2 launch bno055 bno055.launch.py ``
