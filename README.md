@@ -30,8 +30,7 @@ This corrects the gyroscope's heading drift by always knowing which direction is
  
 **Common 9-DOF chips:** BNO055(our module), MPU-9250, ICM-42688-P, LSM9DS1
 
-![](<https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/overview>)
-
+![BNO055 Sensor Axes](https://cdn-learn.adafruit.com/assets/assets/000/030/623/original/adafruit_products_BNO055_Orientation.png)
 -------------------------------------------------------
 
 **to install :**
