@@ -29,7 +29,7 @@ This corrects the gyroscope's heading drift by always knowing which direction is
 
  
 **Common 9-DOF chips:** BNO055(our module), MPU-9250, ICM-42688-P, LSM9DS1
-![](<![Uploading image.png…]()>)
+![](<https://www.jouav.com/blog/inertial-measurement-unit.html>)
 
 -------------------------------------------------------
 
