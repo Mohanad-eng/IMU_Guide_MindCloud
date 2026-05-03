@@ -137,6 +137,60 @@ you will see the bno055
 here is the **rviz** :
 ![](<Screenshot from 2026-04-30 14-59-49.png>)
 
+**Let's see the imu messeage :**
+
 ``
+
+---
+header:
+  stamp:
+    sec: 366
+    nanosec: 784000000
+  frame_id: imu_link
+orientation:
+  x: -0.4339462411720465
+  y: 0.9009383994952168
+  z: -0.00041946711093343396
+  w: -0.0006957980971923171
+orientation_covariance:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+angular_velocity:
+  x: 0.0
+  y: 0.0
+  z: -3.552850267281465e-15
+angular_velocity_covariance:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+linear_acceleration:
+  x: 0.01584333326663922
+  y: -0.0014936324077541314
+  z: -9.808398344311744
+linear_acceleration_covariance:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+---
+
 ``
 
