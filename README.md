@@ -135,7 +135,7 @@ in the part Fixed_frame
 you will see the bno055
 
 here is the **rviz** :
-![](<Screenshot from 2026-04-30 14-59-55.png>)
+![](<Screenshot from 2026-04-30 14-59-49.png>)
 
 ``
 ``
