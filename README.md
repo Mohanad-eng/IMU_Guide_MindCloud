@@ -135,56 +135,5 @@ in the part Fixed_frame
 you will see the bno055
 
 ``
-
-header:
-  stamp:
-    sec: 1777481525  (**the time sensor take**)
-    nanosec: 335376422 
-  frame_id: bno055 (**frame of the sensor**)
-orientation: (**quatrenuion readings for the rotations**)
-  x: -0.007019262438977776
-  y: -0.06604210399107786
-  z: -0.029847124631827242
-  w: 0.9973456369817119
-orientation_covariance: (**the covariance that tell us how confideint the readings**)
-- 0.0159
-- 0.0
-- 0.0
-- 0.0
-- 0.0159
-- 0.0
-- 0.0
-- 0.0
-- 0.0159
-angular_velocity: (**angular velocity from the magenometer**)
-  x: 0.0
-  y: 0.0
-  z: 0.0
-angular_velocity_covariance:
-- 0.04
-- 0.0
-- 0.0
-- 0.0
-- 0.04
-- 0.0
-- 0.0
-- 0.0
-- 0.04
-linear_acceleration: (**linear from gyro**)
-  x: -0.16
-  y: 0.0
-  z: 0.0
-linear_acceleration_covariance:
-- 0.017
-- 0.0
-- 0.0
-- 0.0
-- 0.017
-- 0.0
-- 0.0
-- 0.0
-- 0.017
----
-
 ``
 
