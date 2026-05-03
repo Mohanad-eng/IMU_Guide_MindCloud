@@ -57,12 +57,15 @@ so, the Accelerometer measures the **Linear acceleration + gravity**
 
 Gyroscopes in an IMU measure **angular velocity**, indicating how fast and in what direction something is rotating.
 
-In a typical Coriolis MEMS gyroscope, a vibrating proof mass is attached to a reference frame, inducing a secondary vibration perpendicular to the drive axis when rotated.
+In a typical Coriolis MEMS gyroscope, a vibrating proof mass is attached to a reference frame
 
-This secondary vibration sensed through changes in capacitance, provides a signal proportional to the Coriolis force and the sensed rotation.
+They utilize the Coriolis effect, where an oscillating mass, when rotated, experiences a perpendicular force proportional to the rotation speed. This force causes tiny deflections in the vibrating element, which are detected as capacitance changes by capacitive-sensing structures and converted into a digital signal. 
 
 
 3- A magnetometer is a device that measures the **magnetic field, including its strength and orientation.**
+
+![](<https://www.jouav.com/wp-content/uploads/2023/11/magnetometers-imu-1024x724.jpg>)
+
 
 then the **MCU** Fuse all this and gives us **orientation**
 
