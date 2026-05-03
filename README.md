@@ -237,5 +237,4 @@ linear_acceleration_covariance:
   
 - 0.0  
 ---
-``
 
