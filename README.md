@@ -140,7 +140,6 @@ here is the **rviz** :
 **Let's see the imu messeage :**
 
 ``
-
 ---
 header:
 
@@ -236,8 +235,7 @@ linear_acceleration_covariance:
   
 - 0.0
   
-- 0.0
-  
+- 0.0  
 ---
 
 ``
