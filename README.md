@@ -72,6 +72,8 @@ then the **MCU** Fuse all this and gives us **orientation**
 
 **the old vs modren IMU's** :
 
+here is photos of some moduels
+
 ![](<https://www.jouav.com/wp-content/uploads/2023/11/components-of-inertial-measurement-unit.jpg>)
 
 this is the old imu that the gyro,accleo,magno are seperated
@@ -81,6 +83,8 @@ this is the old imu that the gyro,accleo,magno are seperated
 the square chip in the middle inside it all 3 sensors
 
 ![the chip that contains all three](<https://cdn-shop.adafruit.com/970x728/5158-02.jpg>)
+
+the chip shape
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
