@@ -80,7 +80,7 @@ this is the old imu that the gyro,accleo,magno are seperated
 
 the square chip in the middle inside it all 3 sensors
 
-![](<https://cdn-shop.adafruit.com/970x728/5158-02.jpg>)
+![the chip that contains all three](<https://cdn-shop.adafruit.com/970x728/5158-02.jpg>)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
