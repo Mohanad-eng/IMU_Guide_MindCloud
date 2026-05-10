@@ -244,5 +244,14 @@ the frame of the imu is called : imu_link
 
 orientation is the x,y,z,w quatrenuion readings
 
-here is a Link that fully describe what quat :  
+here is a breif that describe what quat :  
+
+Quaternions are used instead of Euler angles because they:
+
+avoid gimbal lock
+provide smooth rotations
+are numerically stable
+are efficient for robotics calculations
+
+![](<https://gamemath.com/book/orient.html>)
 
