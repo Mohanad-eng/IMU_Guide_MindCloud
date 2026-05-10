@@ -253,6 +253,6 @@ provide smooth rotations
 are numerically stable
 are efficient for robotics calculations
 
-![](<https://gamemath.com/book/orient.html>)
+![](<https://adipandas.github.io/images/quaternion_rotation_1.png>)
 
 
