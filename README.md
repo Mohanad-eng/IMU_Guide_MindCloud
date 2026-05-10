@@ -238,3 +238,11 @@ linear_acceleration_covariance:
 - 0.0  
 ---
 
+Let's Explain the messeage :
+
+the frame of the imu is called : imu_link
+
+orientation is the x,y,z,w quatrenuion readings
+
+here is a Link that fully describe what quat :  
+
