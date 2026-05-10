@@ -3,6 +3,7 @@
 ![](<https://www.seeedstudio.com/blog/wp-content/uploads/2020/01/imu-sensor-guide.png>)
 
 
+
 **imu** An IMU (Inertial Measurement Unit) is an electronic device that measures and reports a body's specific force, angular rate, and sometimes the orientation of the body using a combination of accelerometers, gyroscopes, and sometimes magnetometers.
 
 In robotics, mobile phones, drones, and autonomous vehicles, the IMU is one of the most fundamental sensors — it is the device that tells the system "how am I moving right now?" without needing any external reference like GPS or a camera.
@@ -139,6 +140,7 @@ here is the **rviz** :
 
 **Let's see the imu messeage :**
 
+
 ````
 ---
 header:
@@ -235,8 +237,12 @@ linear_acceleration_covariance:
   
 - 0.0
   
-- 0.0  
+- 0.0
+
+  
 ---
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Let's Explain the messeage :
 
@@ -253,6 +259,7 @@ provide smooth rotations
 are numerically stable
 are efficient for robotics calculations
 
+
 ![](<https://adipandas.github.io/images/quaternion_rotation_1.png>)
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
