@@ -245,18 +245,18 @@ linear_acceleration_covariance:
 
 Let's Explain the messeage :
 
-the frame of the imu is called : imu_link
+the frame of the imu is called : **imu_link**
 
-orientation is the x,y,z,w quatrenuion readings
+orientation is the **x,y,z,w quatrenuion readings**
 
 here is a breif that describe what quat :  
 
 Quaternions are used instead of Euler angles because they:
 
-avoid gimbal lock
-provide smooth rotations
-are numerically stable
-are efficient for robotics calculations
+- avoid gimbal lock
+- provide smooth rotations
+- are numerically stable
+- are efficient for robotics calculations
 
 ![](<https://adipandas.github.io/images/quaternion_rotation_1.png>)
 
