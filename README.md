@@ -238,11 +238,10 @@ linear_acceleration_covariance:
 - 0.0
   
 - 0.0
-
-  
 ---
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+````
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Let's Explain the messeage :
 
@@ -258,7 +257,6 @@ avoid gimbal lock
 provide smooth rotations
 are numerically stable
 are efficient for robotics calculations
-
 
 ![](<https://adipandas.github.io/images/quaternion_rotation_1.png>)
 
