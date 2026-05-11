@@ -264,6 +264,6 @@ Quaternions are used instead of Euler angles because they:
 
 Gimbal lock means that two rotation axes become aligned, so you lose one degree of freedom in rotation.
 
-![](<https://pulli.me/img/quaternions.gif>)
+![](<https://i.makeagif.com/media/11-06-2016/21Hr68.gif>)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
